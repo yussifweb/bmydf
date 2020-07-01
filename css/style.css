@@ -79,6 +79,17 @@ img{
     margin-bottom: 2rem;
 }
 
+.motto p{
+    font-family: 'Courgette', cursive;
+    font-size: 2rem;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.motto h3{
+    font-size: 3rem;
+}
+
 .team p{
     line-height: 5px;
 }
