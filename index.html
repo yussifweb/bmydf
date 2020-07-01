@@ -10,10 +10,11 @@
 
     <!--Cursive-->
     <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
-    
-    <!--Font Awesome CDN-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
+    <script src="https://use.fontawesome.com/f419a3889b.js"></script>
+    <!--Font Awesome CDN
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+      -->
     <!-- Customized CSS -->
     <link rel="stylesheet" href="css/style.css">
 
@@ -46,25 +47,7 @@
                   <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Contact Us</a>
                 </li>
               </ul>
-              </div>
-              <!--
-                 <div>
-                <ul class="navbar-nav social-media">
-                  <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fa fa-facebook-square"></i></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fa fa-twitter-square"></i></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fa fa-instagram"></i></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fa fa-linkedin-square"></i></a>
-                  </li>
-                </ul>
-              </div>
-              -->   
+              </div>      
       </nav>
       <!--NavBar End-->
 
@@ -233,10 +216,10 @@
               </div>
               
               <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pt-5">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pt-5 mb-5">
                   <div class="msg rounded mb-2 thin">
                     <h3>Leave a Message</h3>
-                    <form action="djiceman.gh@gmail.com" method="get">
+                    <form action="mailto:djiceman.gh@gmail.com" method=”POST” enctype=”multipart/form-data”>
                       <div class="form-group">
                         <div class="form-group">
                           <input type="name" placeholder="Name" value="" class="form-control" required>
@@ -248,7 +231,7 @@
                           <input type="text" placeholder="Subject" value="" class="form-control" required>
                         </div>
                         <div class="form-group">
-                          <textarea name="message" id="message" value="message" placeholder="Your Message" class="form-control" cols="30" rows="10" required></textarea>
+                          <textarea name="message" id="message" value="message" placeholder="Your Message" class="form-control" cols="25" rows="10" required></textarea>
                         </div>
                       </div>                
                     </form>
@@ -257,10 +240,27 @@
     
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 pt-5 mb-5">
                   <div class="thin">
+                    <h3>Address</h3>
                     <p>Bekwai Zongo Youth Development Association</p>
                     <p>P.O Box 61, <br>Bekwai - Ashanti <br> Accra-Ghana <br> West-Africa</p>
+                    <p><i class="fa fa-envelope"></i><a class="mail" href="mailto:bezydagh@gmail.com"> bezydagh@gmail.com</a></p>
                   </div>
-                </div>
+
+                  <div class="thin social-media">
+                      <h3>Follow Us</h3>
+                      <ul class="navbar-nav">
+                        <li class="nav-item">
+                          <a class="nav-link" href="https://www.facebook.com/groups/185721122880549/?ref=share"><i class="fa fa-facebook-square"></i> Bekwai Zongo Youth Dev't Ass.</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="https://twitter.com/bezydagh/"><i class="fa fa-twitter-square"></i> @bezydagh</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="https://instagram.com/bezydagh/"><i class="fa fa-instagram"></i> @bezydagh</a>
+                        </li>
+                      </ul>
+                    </div>   
+                  </div>                
               </div>
         </section>
        <!--Contact End-->
