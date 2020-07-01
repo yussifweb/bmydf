@@ -90,6 +90,29 @@ img{
     font-size: 3rem;
 }
 
+.mail{
+    color: black;
+    text-decoration: none;
+}
+
+.mail:hover{
+    color: black;
+    text-decoration: none;
+}
+
+.social-media{
+    margin-top: 3rem;
+}
+
+.social-media .fa{
+    font-size: 1.5rem;
+}
+
+.social-media ul li a{
+    color: black;
+    text-decoration: none;
+}
+
 .team p{
     line-height: 5px;
 }
